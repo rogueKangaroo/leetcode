@@ -11,4 +11,5 @@ leetcode 通过测试的解法(会持续更新，可催更)
 8.字符串转换整数 (atoi)  --> medium/my_atoi </br>
 9.回文数  --> simple/is_palindrome </br>
 10.正则表达式匹配  --> hard/is_match </br>
+32.最长有效括号  --> hard/longest_valid_parentheses </br>
 206.反转链表  --> simple/reverse_list </br>
