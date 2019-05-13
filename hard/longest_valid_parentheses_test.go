@@ -27,7 +27,7 @@ func Test_longestValidParentheses(t *testing.T) {
 	//fmt.Println(fmt.Sprintf("longestValidParentheses result is %v", got))
 	//time.Sleep(100 * time.Millisecond)
 
-	s := "(()()"
+	s := "(()())"
 	got := longestValidParentheses(s)
 	fmt.Println(fmt.Sprintf("longestValidParentheses result is %v", got))
 	time.Sleep(100 * time.Millisecond)
