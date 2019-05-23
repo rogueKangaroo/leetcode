@@ -13,4 +13,5 @@ leetcode 通过测试的解法(会持续更新，可催更)
 10.正则表达式匹配  --> hard/is_match </br>
 32.最长有效括号  --> hard/longest_valid_parentheses </br>
 44.通配符匹配  --> hard/is_match_44 </br>
+53.最大子序和  --> simple/max_sub_array </br>
 206.反转链表  --> simple/reverse_list </br>
