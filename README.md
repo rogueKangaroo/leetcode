@@ -17,4 +17,5 @@ leetcode 通过测试的解法(会持续更新，可催更)
 62.不同路径  --> medium/unique_paths </br>
 63.不同路径2  --> medium/unique_paths_with_obstacles <\br>
 64.最小路径和  --> medium/min_path_sum <\br>
+70.爬楼梯  --> simple/climb_stairs <\br>
 206.反转链表  --> simple/reverse_list </br>
