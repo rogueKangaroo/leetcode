@@ -20,7 +20,6 @@ func largestRectangleArea(x []int) int {
 			if rectangle > maxRectangle {
 				maxRectangle = rectangle
 			}
-
 			i--
 		}
 	}
