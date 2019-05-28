@@ -15,8 +15,10 @@ leetcode 通过测试的解法(会持续更新，可催更)
 44.通配符匹配  --> hard/is_match_44 </br>
 53.最大子序和  --> simple/max_sub_array </br>
 62.不同路径  --> medium/unique_paths </br>
-63.不同路径2  --> medium/unique_paths_with_obstacles <\br>
-64.最小路径和  --> medium/min_path_sum <\br>
-70.爬楼梯  --> simple/climb_stairs <\br>
-72.编辑距离  --> hard/min_distance <\br>
+63.不同路径2  --> medium/unique_paths_with_obstacles </br>
+64.最小路径和  --> medium/min_path_sum </br>
+70.爬楼梯  --> simple/climb_stairs </br>
+72.编辑距离  --> hard/min_distance </br>
+84.柱状图中最大的矩形  --> hard/largest_rectangle_area </br>
+85.最大矩形  --> hard/maximal_rectangle </br>
 206.反转链表  --> simple/reverse_list </br>
