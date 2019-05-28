@@ -1,7 +1,7 @@
 # leetcode
 leetcode 通过测试的解法(会持续更新，可催更)
 
-**1.** [两数之和](https://github.com/rogueKangaroo/leetcode/blob/master/https://github.com/rogueKangaroo/leetcode/blob/master/simple/1_two_sum.go) </br>
+**1.** [两数之和](https://github.com/rogueKangaroo/leetcode/blob/master/simple/1_two_sum.go) </br>
 **2.** [两数相加](https://github.com/rogueKangaroo/leetcode/blob/master/medium/2_add_two_numbers) </br>
 **3.** [无重复字符的最长子串](https://github.com/rogueKangaroo/leetcode/blob/master/medium/3_length_of_longest_substring) </br>
 **4.** [寻找两个有序数组的中位数](https://github.com/rogueKangaroo/leetcode/blob/master/hard/4_find_median_sorted_arrays) </br>
