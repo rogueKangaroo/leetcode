@@ -21,4 +21,5 @@ leetcode 通过测试的解法(会持续更新，可催更)
 **72.** [编辑距离](https://github.com/rogueKangaroo/leetcode/blob/master/hard/72_min_distance) </br>
 **84.** [柱状图中最大的矩形](https://github.com/rogueKangaroo/leetcode/blob/master/hard/84_largest_rectangle_area) </br>
 **85.** [最大矩形](https://github.com/rogueKangaroo/leetcode/blob/master/hard/85_maximal_rectangle) </br>
+**87.** [扰乱字符串](https://github.com/rogueKangaroo/leetcode/blob/master/hard/87_is_scramble) </br>
 **206.** [反转链表](https://github.com/rogueKangaroo/leetcode/blob/master/simple/206_reverse_list) </br>
