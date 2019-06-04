@@ -22,4 +22,5 @@ leetcode 通过测试的解法(会持续更新，可催更)
 **84.** [柱状图中最大的矩形](https://github.com/rogueKangaroo/leetcode/blob/master/hard/84_largest_rectangle_area) </br>
 **85.** [最大矩形](https://github.com/rogueKangaroo/leetcode/blob/master/hard/85_maximal_rectangle) </br>
 **87.** [扰乱字符串](https://github.com/rogueKangaroo/leetcode/blob/master/hard/87_is_scramble) </br>
+**91.** [解码方法](https://github.com/rogueKangaroo/leetcode/blob/master/medium/91_num_decodings) </br>
 **206.** [反转链表](https://github.com/rogueKangaroo/leetcode/blob/master/simple/206_reverse_list) </br>
