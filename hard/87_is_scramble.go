@@ -1,6 +1,8 @@
 package hard
 
-import "strconv"
+import (
+	"sort"
+)
 
 /*
 给定一个字符串 s1，我们可以把它递归地分割成两个非空子字符串，从而将其表示为二叉树。
@@ -49,78 +51,47 @@ r   g  ta  e
 输入: s1 = "abcde", s2 = "caebd"
 输出: false
 
+解法：
+	如果s1和s2是扰乱字符，则必然存在从第i个字符分隔，使得s1(0->i)和s2(0->i)是扰乱字符且s1(i->len(s1))和s2(i->len(s2))是扰乱字符；或者s1(0->i)和s2(len(s2)-i->len(s2))是扰乱字符且s1(i->len(s1))和s2(0->len(s2)-i)是扰乱字符
+	其余做好剪枝操作，提升效率
 */
 func isScramble(s1 string, s2 string) bool {
-	str1 := ""
-	str2 := ""
-	map1 := make(map[uint8][]int,0)
-	map2 := make(map[uint8][]int,0)
-	for i:=0;i<len(s1);i++ {
-		if _,ok := map1[s1[i]];ok {
-			array := map1[s1[i]]
-			array = append(array,i)
-			map1[s1[i]] = array
-		} else {
-			array := make([]int,0)
-			array = append(array,i)
-			map1[s1[i]] =array
-		}
-	}
-	for i:=0;i<len(s2);i++ {
-		if _,ok := map2[s2[i]];ok {
-			array := map2[s2[i]]
-			array = append(array,i)
-			map2[s2[i]] = array
-		} else {
-			array := make([]int,0)
-			array = append(array,i)
-			map2[s2[i]] =array
-		}
-	}
-	for i:=0;i<len(s1);i++ {
-		if array,ok := map2[s1[i]];ok {
-			flag := false
-			for index,item := range array {
-				if item != -1 {
-					flag = true
-					str1 = str1 + strconv.Itoa(item)
-					array[index] = -1
-					map2[s1[i]] = array
-					break
-				}
-			}
-			if !flag {
-				return false
-			}
-		} else {
-			return false
-		}
-	}
-	for i:=0;i<len(s2);i++ {
-		if array,ok := map1[s2[i]];ok {
-			flag := false
-			for index,item := range array {
-				if item != -1 {
-					flag = true
-					str2 = str2 + strconv.Itoa(item)
-					array[index] = -1
-					map1[s2[i]] = array
-					break
-				}
-			}
-			if !flag {
-				return false
-			}
-		} else {
-			return false
-		}
-	}
-	if (s1 != "" && str1 == "") || (s2 != "" && str2 == "") {
+	if len(s1) != len(s2) {
 		return false
 	}
-	if str1 == str2 {
+	if s1 == s2 {
 		return true
-	} else {
+	}
+
+	if SortString(s1) != SortString(s2) {
 		return false
 	}
+
+	for i:=1;i<len(s1);i++ {
+		if (isScramble(s1[0:i],s2[0:i]) && isScramble(s1[i:] ,s2[i:])) || (isScramble(s1[0:i] , s2[len(s1) - i:]) && isScramble(s1[i:] , s2[0:len(s1) - i])) {
+			return true
+		}
+	}
+
+	return false
+}
+
+type sortRunes []rune
+
+func (s sortRunes) Less(i, j int) bool {
+	return s[i] < s[j]
+}
+
+func (s sortRunes) Swap(i, j int) {
+	s[i], s[j] = s[j], s[i]
+}
+
+func (s sortRunes) Len() int {
+	return len(s)
+}
+
+func SortString(s string) string {
+	r := []rune(s)
+	sort.Sort(sortRunes(r))
+	return string(r)
 }

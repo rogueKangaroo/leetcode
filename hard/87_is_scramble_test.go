@@ -30,4 +30,30 @@ func Test_isScramble(t *testing.T) {
 	got = isScramble(s1, s2)
 	fmt.Println(fmt.Sprintf("isScramble result is %v", got))
 	time.Sleep(100 * time.Millisecond)
+
+	s1 = "a"
+	s2 = "a"
+	got = isScramble(s1, s2)
+	fmt.Println(fmt.Sprintf("isScramble result is %v", got))
+	time.Sleep(100 * time.Millisecond)
+
+	s1 = "abc"
+	s2 = "acb"
+	got = isScramble(s1, s2)
+	fmt.Println(fmt.Sprintf("isScramble result is %v", got))
+	time.Sleep(100 * time.Millisecond)
+
+	s1 = "abc"
+	s2 = "bca"
+	got = isScramble(s1, s2)
+	fmt.Println(fmt.Sprintf("isScramble result is %v", got))
+	time.Sleep(100 * time.Millisecond)
+
+	s1 = "eat"
+	s2 = "tae"
+	got = isScramble(s1, s2)
+	fmt.Println(fmt.Sprintf("isScramble result is %v", got))
+	time.Sleep(100 * time.Millisecond)
+
 }
+
