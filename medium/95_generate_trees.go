@@ -22,13 +22,52 @@ package medium
      3     2     1      1   3      2
     /     /       \                 \
    2     1         2                 3
+
+解法：
+	递归:
+	已i为根节点，那么其左子树为1->i的值，右子树为i+1->n的值
 */
+
 type TreeNode struct {
 	Val   int
 	Left  *TreeNode
 	Right *TreeNode
 }
 
+var flag []bool
 func generateTrees(n int) []*TreeNode {
-	return nil
+	if n == 0 {
+		return []*TreeNode{}
+	}
+	flag = make([]bool,n+1)
+	return generate(1, n)
+}
+
+func generate( left, right int) ([]*TreeNode) {
+	newNodes := []*TreeNode{nil}
+	leftBranch := []*TreeNode{}
+	rightBranch := []*TreeNode{}
+
+	for i:=left;i<=right;i++ {
+		if !flag[i] {
+			flag[i] = true
+			leftBranch = generate(left,i-1)
+			rightBranch = generate(i+1,right)
+			for _,left := range leftBranch {
+				for _,right := range rightBranch {
+					newNode := &TreeNode{
+						Val:i,
+						Left:left,
+						Right:right,
+					}
+					newNodes = append(newNodes,newNode)
+				}
+			}
+			flag[i] = false
+		}
+	}
+	if len(newNodes) > 1{
+		return newNodes[1:]
+	}
+	return newNodes
 }
