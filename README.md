@@ -11,7 +11,10 @@ leetcode 通过测试的解法(会持续更新，可催更)
 **8.** [字符串转换整数](https://github.com/rogueKangaroo/leetcode/blob/master/medium/8_my_atoi) </br>
 **9.** [回文数](https://github.com/rogueKangaroo/leetcode/blob/master/simple/9_is_palindrome) </br>
 **10.** [正则表达式匹配](https://github.com/rogueKangaroo/leetcode/blob/master/hard/10_is_match) </br>
+**20.** [有效的罗浩](https://github.com/rogueKangaroo/leetcode/blob/master/simple/20_is_valid) </br>
+**28.** [实现strStr()](https://github.com/rogueKangaroo/leetcode/blob/master/hard/28_str_str) </br>
 **32.** [最长有效括号](https://github.com/rogueKangaroo/leetcode/blob/master/hard/32_longest_valid_parentheses) </br>
+**42.** [接雨水](https://github.com/rogueKangaroo/leetcode/blob/master/hard/42_trap) </br>
 **44.** [通配符匹配](https://github.com/rogueKangaroo/leetcode/blob/master/hard/44_is_match) </br>
 **53.** [最大子序和](https://github.com/rogueKangaroo/leetcode/blob/master/simple/53_max_sub_array) </br>
 **62.** [不同路径](https://github.com/rogueKangaroo/leetcode/blob/master/medium/62_unique_paths) </br>
@@ -19,6 +22,7 @@ leetcode 通过测试的解法(会持续更新，可催更)
 **64.** [最小路径和](https://github.com/rogueKangaroo/leetcode/blob/master/medium/64_min_path_sum) </br>
 **70.** [爬楼梯](https://github.com/rogueKangaroo/leetcode/blob/master/simple/70_climb_stairs) </br>
 **72.** [编辑距离](https://github.com/rogueKangaroo/leetcode/blob/master/hard/72_min_distance) </br>
+**78.** [子集](https://github.com/rogueKangaroo/leetcode/blob/master/medium/78_subsets) </br>
 **84.** [柱状图中最大的矩形](https://github.com/rogueKangaroo/leetcode/blob/master/hard/84_largest_rectangle_area) </br>
 **85.** [最大矩形](https://github.com/rogueKangaroo/leetcode/blob/master/hard/85_maximal_rectangle) </br>
 **87.** [扰乱字符串](https://github.com/rogueKangaroo/leetcode/blob/master/hard/87_is_scramble) </br>
@@ -27,3 +31,4 @@ leetcode 通过测试的解法(会持续更新，可催更)
 **96.** [不同的二叉搜索树](https://github.com/rogueKangaroo/leetcode/blob/master/medium/96_generate_trees) </br>
 **97.** [交错字符串](https://github.com/rogueKangaroo/leetcode/blob/master/hard/97_is_interleave) </br>
 **206.** [反转链表](https://github.com/rogueKangaroo/leetcode/blob/master/simple/206_reverse_list) </br>
+**319.** [灯泡开关](https://github.com/rogueKangaroo/leetcode/blob/master/medium/319_bulb_switch) </br>
