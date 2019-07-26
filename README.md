@@ -32,5 +32,8 @@ leetcode 通过测试的解法(会持续更新，可催更)
 **95.** [不同的二叉搜索树 II](https://github.com/rogueKangaroo/leetcode/blob/master/medium/95_generate_trees) </br>
 **96.** [不同的二叉搜索树](https://github.com/rogueKangaroo/leetcode/blob/master/medium/96_generate_trees) </br>
 **97.** [交错字符串](https://github.com/rogueKangaroo/leetcode/blob/master/hard/97_is_interleave) </br>
+**103.** [二叉树的锯齿形层次遍历](https://github.com/rogueKangaroo/leetcode/blob/master/medium/103_zigzag_level_order) </br>
+**144.** [二叉树的前序遍历](https://github.com/rogueKangaroo/leetcode/blob/master/medium/144_preorder_traversal) </br>
+**145.** [二叉树的后序遍历](https://github.com/rogueKangaroo/leetcode/blob/master/hard/145_postorder_traversal) </br>
 **206.** [反转链表](https://github.com/rogueKangaroo/leetcode/blob/master/simple/206_reverse_list) </br>
 **319.** [灯泡开关](https://github.com/rogueKangaroo/leetcode/blob/master/medium/319_bulb_switch) </br>
