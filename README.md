@@ -21,12 +21,14 @@ leetcode 通过测试的解法(会持续更新，可催更)
 **63.** [不同路径2](https://github.com/rogueKangaroo/leetcode/blob/master/medium/63_unique_paths_with_obstacles) </br>
 **64.** [最小路径和](https://github.com/rogueKangaroo/leetcode/blob/master/medium/64_min_path_sum) </br>
 **70.** [爬楼梯](https://github.com/rogueKangaroo/leetcode/blob/master/simple/70_climb_stairs) </br>
+**71.** [简化路径](https://github.com/rogueKangaroo/leetcode/blob/master/medium/71_simplify_path) </br>
 **72.** [编辑距离](https://github.com/rogueKangaroo/leetcode/blob/master/hard/72_min_distance) </br>
 **78.** [子集](https://github.com/rogueKangaroo/leetcode/blob/master/medium/78_subsets) </br>
 **84.** [柱状图中最大的矩形](https://github.com/rogueKangaroo/leetcode/blob/master/hard/84_largest_rectangle_area) </br>
 **85.** [最大矩形](https://github.com/rogueKangaroo/leetcode/blob/master/hard/85_maximal_rectangle) </br>
 **87.** [扰乱字符串](https://github.com/rogueKangaroo/leetcode/blob/master/hard/87_is_scramble) </br>
 **91.** [解码方法](https://github.com/rogueKangaroo/leetcode/blob/master/medium/91_num_decodings) </br>
+**94.** [二叉树的中序遍历](https://github.com/rogueKangaroo/leetcode/blob/master/medium/94_inorder_traversal) </br>
 **95.** [不同的二叉搜索树 II](https://github.com/rogueKangaroo/leetcode/blob/master/medium/95_generate_trees) </br>
 **96.** [不同的二叉搜索树](https://github.com/rogueKangaroo/leetcode/blob/master/medium/96_generate_trees) </br>
 **97.** [交错字符串](https://github.com/rogueKangaroo/leetcode/blob/master/hard/97_is_interleave) </br>
