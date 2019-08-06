@@ -18,6 +18,7 @@ leetcode 通过测试的解法(会持续更新，可催更)
 **42.** [接雨水](https://github.com/rogueKangaroo/leetcode/blob/master/hard/42_trap) </br>
 **44.** [通配符匹配](https://github.com/rogueKangaroo/leetcode/blob/master/hard/44_is_match) </br>
 **53.** [最大子序和](https://github.com/rogueKangaroo/leetcode/blob/master/simple/53_max_sub_array) </br>
+**55.** [跳跃游戏](https://github.com/rogueKangaroo/leetcode/blob/master/medium/55_can_jump) </br>
 **62.** [不同路径](https://github.com/rogueKangaroo/leetcode/blob/master/medium/62_unique_paths) </br>
 **63.** [不同路径2](https://github.com/rogueKangaroo/leetcode/blob/master/medium/63_unique_paths_with_obstacles) </br>
 **64.** [最小路径和](https://github.com/rogueKangaroo/leetcode/blob/master/medium/64_min_path_sum) </br>
