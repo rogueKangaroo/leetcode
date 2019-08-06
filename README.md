@@ -17,6 +17,7 @@ leetcode 通过测试的解法(会持续更新，可催更)
 **32.** [最长有效括号](https://github.com/rogueKangaroo/leetcode/blob/master/hard/32_longest_valid_parentheses) </br>
 **42.** [接雨水](https://github.com/rogueKangaroo/leetcode/blob/master/hard/42_trap) </br>
 **44.** [通配符匹配](https://github.com/rogueKangaroo/leetcode/blob/master/hard/44_is_match) </br>
+**45.** [跳跃游戏 II](https://github.com/rogueKangaroo/leetcode/blob/master/hard/45_jump) </br>
 **53.** [最大子序和](https://github.com/rogueKangaroo/leetcode/blob/master/simple/53_max_sub_array) </br>
 **55.** [跳跃游戏](https://github.com/rogueKangaroo/leetcode/blob/master/medium/55_can_jump) </br>
 **62.** [不同路径](https://github.com/rogueKangaroo/leetcode/blob/master/medium/62_unique_paths) </br>
