@@ -38,6 +38,7 @@ leetcode 通过测试的解法(会持续更新，可催更)
 **103.** [二叉树的锯齿形层次遍历](https://github.com/rogueKangaroo/leetcode/blob/master/medium/103_zigzag_level_order) </br>
 **122.** [买卖股票的最佳时机 II](https://github.com/rogueKangaroo/leetcode/blob/master/simple/122_max_profit) </br>
 **134.** [加油站](https://github.com/rogueKangaroo/leetcode/blob/master/medium/134_can_complete_circuit) </br>
+**135.** [分发糖果](https://github.com/rogueKangaroo/leetcode/blob/master/hard/135_candy) </br>
 **144.** [二叉树的前序遍历](https://github.com/rogueKangaroo/leetcode/blob/master/medium/144_preorder_traversal) </br>
 **145.** [二叉树的后序遍历](https://github.com/rogueKangaroo/leetcode/blob/master/hard/145_postorder_traversal) </br>
 **150.** [逆波兰表达式求值](https://github.com/rogueKangaroo/leetcode/blob/master/medium/150_eval_RPN) </br>
