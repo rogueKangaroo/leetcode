@@ -47,3 +47,4 @@ leetcode 通过测试的解法(会持续更新，可催更)
 **218.** [天际线问题](https://github.com/rogueKangaroo/leetcode/blob/master/hard/218_get_skyline) </br>
 **206.** [反转链表](https://github.com/rogueKangaroo/leetcode/blob/master/simple/206_reverse_list) </br>
 **319.** [灯泡开关](https://github.com/rogueKangaroo/leetcode/blob/master/medium/319_bulb_switch) </br>
+**1144.** [递减元素使数组呈锯齿状](https://github.com/rogueKangaroo/leetcode/blob/master/medium/1144_moves_to_make_zigzag) </br>
