@@ -50,4 +50,6 @@ leetcode 通过测试的解法(会持续更新，可催更)
 **1144.** [递减元素使数组呈锯齿状](https://github.com/rogueKangaroo/leetcode/blob/master/medium/1144_moves_to_make_zigzag) </br>
 **1145.** [二叉树着色](https://github.com/rogueKangaroo/leetcode/blob/master/medium/1145_btree_game_winning_move) </br>
 
-排名:60208
+排名:56156
+
+
