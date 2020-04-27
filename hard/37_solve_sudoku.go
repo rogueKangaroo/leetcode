@@ -1,5 +1,10 @@
 package hard
 
+import (
+	"bytes"
+	"strconv"
+)
+
 /*
 
 编写一个程序，通过已填充的空格来解决数独问题。
@@ -31,19 +36,28 @@ func solveSudoku(board [][]byte)  {
 	backTrackForSolveSudoku(&board,0,0)
 }
 
-func backTrackForSolveSudoku(board *[][]byte,row,col int)  {
-	newRow,newCol := getRowAndCol(board,row,col)
+func backTrackForSolveSudoku(board *[][]byte,row,col int) bool {
+	if row == 8 && col == 8 {
+		return true
+	}
+	newRow,newCol := getRowAndCol(board,row)
 	if  newRow == -1 && newCol == -1 {
-		return
+		return true
 	}
 
 	for i:=1;i<=9;i++ {
-		if isValidForSudoku(newCol,newRow,byte(i),board) {
-			(*board)[newRow][newCol] = byte(i)
-			backTrackForSolveSudoku(board,row,col)
-			(*board)[newRow][newCol] = '.'
+		iByte := bytes.NewBufferString(strconv.Itoa(i)).Bytes()[0]
+		if isValidForSudoku(newRow,newCol,iByte,board) {
+			(*board)[newRow][newCol] = iByte
+			res := backTrackForSolveSudoku(board,newRow,newCol)
+			if res {
+				return true
+			} else {
+				(*board)[newRow][newCol] = '.'
+			}
 		}
 	}
+	return false
 }
 
 func isValidForSudoku(row,col int, num byte,board *[][]byte) bool {
@@ -53,19 +67,19 @@ func isValidForSudoku(row,col int, num byte,board *[][]byte) bool {
 		}
 	}
 	tempRow := row/3 * 3
-	tempCol := row/3 * 3
+	tempCol := col/3 * 3
 	for i:=0;i<3;i++{
 		for j:=0;j<3;j++ {
-			if (*board)[tempCol+i][tempRow+j] == num {
+			if (*board)[tempRow+i][tempCol+j] == num {
 				return false
 			}
 		}
 	}
 	return true
 }
-func getRowAndCol(board *[][]byte,row,col int) (int,int) {
+func getRowAndCol(board *[][]byte,row int) (int,int) {
 	for i:=row;i<9;i++{
-		for j:=col;j<9;j++{
+		for j:=0;j<9;j++{
 			if (*board)[i][j] == '.' {
 				return i,j
 			}
